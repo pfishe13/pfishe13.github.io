@@ -143,22 +143,19 @@ footer {
 
 /* Media Queries */
 
-
-@media only screen 
-    and (device-width: 390px) 
-    and (device-height: 844px) 
-    and (-webkit-device-pixel-ratio: 3) {
-        .hello-header{
-            padding-top: 3rem !important;
-        }
-        .hello-header, .main-home-text, .col {
-            padding-left: 0;
-            font-size: calc(1rem + 1.5vw) !important;
-        }
-        .mobile-noshow {
-            display: none !important;
-        }
+@media (max-width: 600px) {
+    .hello-header{
+        padding-top: 3rem !important;
     }
+    .hello-header, .main-home-text, .col {
+        padding-left: 0;
+        font-size: calc(1rem + 1.5vw) !important;
+    }
+    .mobile-noshow {
+        display: none !important;
+    }
+}
+
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
     .hello-header {
