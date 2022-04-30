@@ -110,6 +110,7 @@ ul {
     font-family: Inconsolata,monospace;
     font-weight: 500;
     text-transform: uppercase;
+    margin-bottom: 5px;
 }
 
 .project-button:hover {
@@ -153,6 +154,10 @@ footer {
     }
     .mobile-noshow {
         display: none !important;
+    }
+
+    .background-content, .contact-content, .projects-content {
+        padding: 3rem 2rem 2rem;
     }
 }
 
