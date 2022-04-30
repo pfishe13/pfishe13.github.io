@@ -153,6 +153,7 @@ footer {
         }
         .hello-header, .main-home-text, .col {
             padding-left: 0;
+            font-size: calc(1rem + 1.5vw);
         }
         .mobile-noshow {
             display: none !important;
