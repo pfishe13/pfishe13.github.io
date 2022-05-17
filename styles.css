@@ -35,6 +35,10 @@ ul {
     list-style: none;
 }
 
+h3 a {
+    color: #212529;
+}
+
 .section-container {
     position: relative;
     height: 100vh;
