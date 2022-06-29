@@ -131,6 +131,22 @@
                     <div class="project-container container">
                         <div class="row">
                           <div class="col-5 p-0 mobile-noshow">
+                            <img class="mx-auto d-block rounded scale-image" src="/images/calc.png" alt="Screenshot of Calculator app">
+                          </div>
+                          <div class="col">
+                            <h3><a href="https://pfishe13.github.io/etch-a-sketch/">CALCULATOR</a></h3>
+                            <p>A calculator application built using the fundamentals of JavaScript, HTML, and CSS. Completed as part of The Odin Project.</p>
+                            <div class="btn btn-outline-primary project-button">HTML</div>
+                            <div class="btn btn-outline-primary project-button">CSS</div>
+                            <div class="btn btn-outline-primary project-button">JavaScript</div>
+
+                          </div>
+                        </div>
+                    </div>
+                    <!-- THIRD PROJECT -->
+                    <div class="project-container container">
+                        <div class="row">
+                          <div class="col-5 p-0 mobile-noshow">
                             <img class="mx-auto d-block rounded scale-image" src="/images/etch-a-sketch.png" alt="Screenshot of Etch-A-Sketch">
                           </div>
                           <div class="col">
@@ -143,7 +159,7 @@
                           </div>
                         </div>
                     </div>
-                     <!-- THIRD PROJECT -->
+                     <!-- FOURTH PROJECT -->
                     <div class="project-container container">
                         <div class="row">
                           <div class="col-5 p-0 mobile-noshow">
@@ -159,7 +175,7 @@
                           </div>
                         </div>
                     </div>
-                    <!-- FOURTH PROJECT -->
+                    <!-- FIFTH PROJECT -->
                     <div class="project-container container">
                         <div class="row">
                           <div class="col-5 p-0 mobile-noshow">
@@ -200,6 +216,10 @@
         function darkMode() {
             var bodyElement = document.body;
             bodyElement.classList.toggle("dark-mode");
+
+            let projectContainer = document.getElementById("Projects");
+            let projectHeaders = projectContainer.querySelectorAll("a");
+            projectHeaders.forEach(head => head.classList.toggle("dark-mode-header"));
 
             var navElement = document.getElementById("navBar");
             navElement.classList.toggle("navbar-dark");
